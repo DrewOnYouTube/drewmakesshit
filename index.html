@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube Homepage Layout</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="flex-div">
+      <div class="nav-left flex-div">
+        <img src="images/menu.png" alt="" class="menu_icon" />
+        <span class="logo">DrewKoe</span>
+      </div>
+      <div class="nav-middle flex-div">
+        <div class="search_box flex-div">
+          <input type="text" id="search_input" placeholder="Search" />
+          <img src="images/search.png" alt="" />
+        </div>
+        <img src="images/voice-search.png" class="mic_icon" alt="" />
+      </div>
+      <div class="nav-right flex-div">
+        <img src="images/upload.png" alt="" />
+        <img src="images/notification.png" alt="" />
+        <img src="images/Jack.png" alt="" class="user-icon" />
+      </div>
+    </nav>
+    <div class="suggestions p-1" id="suggestions"></div>
+    <div class="sidebar">
+      <div class="shortcut-links">
+        <a href=""
+          ><img src="images/Community.png" alt="" />
+          <p>Community</p></a
+        >
+        <a href=""
+          ><img src="images/merchandise.png" alt="" />
+          <p>Merch</p></a
+        >
+        <a href=""
+          ><img src="images/branddeal.png" alt="" />
+          <p>Brand Dealss</p></a
+        >
+        <a href=""
+          ><img src="images/series.png" alt="" />
+          <p>Series</p></a
+        >
+        <a href=""
+          ><img src="images/about.png" alt="" />
+          <p>About</p></a
+        >
+        <a href=""
+          ><img src="images/favourite.png" alt="" />
+          <p>Favourites</p></a
+        >
+        <hr />
+      </div>
+    </div>
+    <div class="content">
+      <div class="banner">
+        <img src="images/image9.png" alt="" />
+      </div>
+      <div class="list_content">
+        <div class="vid_list">
+          <a href="#"
+            ><img src="images/image2.png" alt="" class="thumbnail"
+          /></a>
+          <div class="flex-div">
+            <img src="images/image3.png" alt="" />
+            <div class="vid-info">
+              <a href="#">Building a Brand With Peter Santenello</a>
+              <p>Peter Santenello</p>
+              <p>15k Views &bull; 2 days</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"
+            ><img src="images/image10.png" alt="" class="thumbnail"
+          /></a>
+          <div class="flex-div">
+            <img src="images/image6.png" alt="" />
+            <div class="vid-info">
+              <a href="#">Getting Over 100,000,000 Views With MrBeast</a>
+              <p>MrBeast</p>
+              <p>20M Views &bull; 1 week ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"
+            ><img src="images/image7.png" alt="" class="thumbnail"
+          /></a>
+          <div class="flex-div">
+            <img src="images/image8.png" alt="" />
+            <div class="vid-info">
+              <a href="#">Growing A Podcast With Rainn Wilson</a>
+              <p>Rainn Wilson</p>
+              <p>10k Views &bull; 5 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"
+            ><img src="images/image11.png" alt="" class="thumbnail"
+          /></a>
+          <div class="flex-div">
+            <img src="images/image13.png" alt="" />
+            <div class="vid-info">
+              <a href="#">Driving Stoke With Chad Kroger</a>
+              <p>Chad Kroger</p>
+              <p>8k Views &bull; 3 days ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"
+            ><img src="images/image12.png" alt="" class="thumbnail"
+          /></a>
+          <div class="flex-div">
+            <img src="images/image1.png" alt="" />
+            <div class="vid-info">
+              <a href="#">Going from Short Form to Long Form With Yiming Lin</a>
+              <p>Yiming Lin</p>
+              <p>5k Views &bull; 1 day ago</p>
+            </div>
+          </div>
+        </div>
+        <div class="vid_list">
+          <a href="#"
+            ><img src="images/image5.png" alt="" class="thumbnail"
+          /></a>
+          <div class="flex-div">
+            <img src="images/image4.png" alt="" />
+            <div class="vid-info">
+              <a href="#">Making Clarity Of Your Chaos With Dan Mace</a>
+              <p>Dan Mace</p>
+              <p>12k Views &bull; 4 days ago</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
